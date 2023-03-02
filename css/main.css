@@ -94,7 +94,7 @@ hr {
 }
 
 .form_size {
-    width: 510px;
+    max-width: 510px;
     height: 471px;
     background-color: white;
     border-radius: 10px;
@@ -157,7 +157,7 @@ hr {
 }
 
 .description {
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: slidein;
 }
 
@@ -168,13 +168,13 @@ hr {
     }
 
     to {
-        margin-left: 21%;
+        margin-left: 22%;
         width: 100%;
     }
 }
 
 .form_size {
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: forms;
 }
 
@@ -185,7 +185,7 @@ hr {
     }
 
     to {
-        margin-right: 18%;
+        margin-right: 21%;
         width: 100%;
     }
 }
