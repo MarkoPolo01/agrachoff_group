@@ -1,6 +1,6 @@
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
-output.innerHTML = slider.value; // Display the default slider value
+output.innerHTML = slider.value;
 
 
 slider.oninput = function() {
@@ -11,7 +11,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
 
