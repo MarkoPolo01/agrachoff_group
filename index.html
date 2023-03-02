@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="center">
+        <div class="navbar">
+            <img src="img/Rectangle.png" alt="logo">
+            <div>
+                <ul>
+                    <li><div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">МЕНЮ</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">УСЛУГИ</a>
+                            <a href="#about">СТАТЬИ</a>
+                            <a href="#contact">ВАКАНСИИ</a>
+                            <a href="#contact">ФРАНШИЗА</a>
+                        </div>
+                    </div></li>
+                    <li>ПОРТФОЛИО</li>
+                    <li>ЦЕНЫ</li>
+                    <li>СХЕМА РАБОТЫ</li>
+                    <li>ОТЗОВЫ</li>
+                    <li>КОНТАКТЫ</li>
+                    <li>ГАРАНТИЯ</li>
+                </ul>
+            </div>
+            <button class="navbar_button">ОБРАТНЫЙ ЗВОНОК</button>
+        </div>
+        <img src="img/Ofisse.png" alt="ofice" class="office">
+        <div class="header_body">
+            <div class="description">
+                <p class="description_repair"> Ремонт под ключ от <br> 2900 руб/м2.</p>
+                <div class="description_design">
+                    <p>При заказе ремонта делаем <br> дизайн-проект в подарок</p>
+                    <hr>
+                </div>
+                <div class="description_merits">
+                    <div class="description_merits_elements">
+                        <img src="img/icons/Shape.png">
+                        <p class="elements_text">Бесплатный выезд в <br> день обращения</p>
+                    </div>
+                    <div class="description_merits_elements">
+                        <img src="img/icons/Shape3.png">
+                        <p class="elements_text">Жесткое соблюдение <br> сроков</p>
+                    </div>
+                    <div class="description_merits_elements">
+                        <img src="img/icons/Shape2.png">
+                        <p class="elements_text">Гарантия на работу <br> до 5 лет</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form_size">
+                <form>
+                    <p class="title_body">Рассчитайте<br> стоимость ремонта</p>
+                    <div class="slider_info">
+                        <p class="ask">Площадь квартиры:</p>
+                        <div class="metr">
+                            <span id="demo"></span>
+                            <p>м<sup><small>2</small></sup></p>
+                        </div>
+                    </div>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="slider_info_radio">
+                        <p class="form_slide">ТИП ЖИЛЬЯ:</p>
+                        <div class="radio_main">
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">Вторичное жилье</p>
+                            </div>
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">Новостройка</p>
+                            </div>
+                            <div class="radio" >
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">Офис</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_info_radio">
+                        <p class="form_slide">КОЛ-ВО КОМНАТ:</p>
+                        <div class="radio_main">
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">1</p>
+                            </div>
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">2</p>
+                            </div>
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text"> 3+</p>
+                            </div>
+                            <div class="radio">
+                                <img src="img/radio.png" alt="radio">
+                                <p class="radio_text">Студия</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button_pozition">
+                        <button class="navbar_button">ОТПРАВИТЬ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="scroll_bar">
+            <div class="scroll_animation">
+                <img src="img/Scroll.png" alt="scroll" class="img_scroll">
+                <p>Scroll</p>
+            </div>
+        </div>
+    </div>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
